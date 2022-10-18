@@ -1,10 +1,10 @@
-package Cargos;
+package cargos;
 
 public class SistemaInterno {
     private int senha = 2222;
 
-    public void autentica(Autenticacao autenticacao){
-        boolean autenticado = autenticacao.autentica(this.senha);
+    public void autentica(Autenticavel autenticavel){
+        boolean autenticado = autenticavel.autentica(this.senha);
         if (autenticado){
             System.out.println("Acesso liberado !");
         }else

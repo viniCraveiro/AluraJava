@@ -1,9 +1,9 @@
-package Cargos;
+package cargos;
 
-public class Cliente implements Autenticacao {
+public class Autenticacao {
     private int senha;
 
-    @Override
+
     public boolean autentica(int senha) {
         if (this.senha == senha) {
             return true;
@@ -12,7 +12,6 @@ public class Cliente implements Autenticacao {
         }
     }
 
-    @Override
     public void setSenha(int senha) {
         this.senha = senha;
     }

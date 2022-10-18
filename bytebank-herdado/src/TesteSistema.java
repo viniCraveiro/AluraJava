@@ -1,6 +1,6 @@
-import Cargos.Administradores;
-import Cargos.Gerente;
-import Cargos.SistemaInterno;
+import cargos.Administradores;
+import cargos.Gerente;
+import cargos.SistemaInterno;
 
 public class TesteSistema {
     public static void main(String[] args) {

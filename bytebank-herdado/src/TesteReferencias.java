@@ -1,7 +1,7 @@
-import Cargos.ControleBonificacao;
-import Cargos.Designer;
-import Cargos.EditorVideo;
-import Cargos.Gerente;
+import cargos.ControleBonificacao;
+import cargos.Designer;
+import cargos.EditorVideo;
+import cargos.Gerente;
 
 public class TesteReferencias {
     public static void main(String[] args) {

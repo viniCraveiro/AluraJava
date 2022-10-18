@@ -1,4 +1,4 @@
-import Cargos.Gerente;
+import cargos.Gerente;
 
 public class TesteFuncionario {
     public static void main(String[] args) {

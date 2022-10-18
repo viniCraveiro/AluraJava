@@ -1,4 +1,4 @@
-package Cargos;
+package cargos;
 
 public class Designer extends Funcionario {
 

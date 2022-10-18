@@ -1,6 +1,4 @@
-package Cargos;
-
-import Cargos.Funcionario;
+package cargos;
 
 public class ControleBonificacao {
 
