@@ -3,7 +3,7 @@ public class Fluxo {
         System.out.println("Inicio do main");
         try {
             metodo1();
-        } catch (ArithmeticException | NullPointerException exception) {
+        } catch (Exception exception) {
             String msg = exception.getMessage();
             System.out.println("Exception" + msg);
             exception.printStackTrace();
@@ -11,7 +11,7 @@ public class Fluxo {
         System.out.println("Fim do main");
     }
 
-    private static void metodo1() {
+    private static void metodo1(){
         System.out.println("Inicio do metodo1");
             metodo2();
         System.out.println("Fim do metodo1");
@@ -19,7 +19,7 @@ public class Fluxo {
 
     private static void metodo2() {
         System.out.println("Inicio do metodo2");
-        throw new ArithmeticException("Deu ruim!");
+//        throw new MinhaException(" Deu ruim");
 //        System.out.println("Fim do metodo2");
     }
 }
