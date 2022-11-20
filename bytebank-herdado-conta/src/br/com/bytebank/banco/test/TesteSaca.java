@@ -1,3 +1,9 @@
+package br.com.bytebank.banco.test;
+
+import model.Conta;
+import model.ContaCorrente;
+import common.Exception.SaldoInsuficienteException;
+
 public class TesteSaca {
     public static void main(String[] args) {
         Conta contaCorrente = new ContaCorrente();

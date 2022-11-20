@@ -1,3 +1,9 @@
+package br.com.bytebank.banco.test;
+
+import model.CalculadorImposto;
+import model.ContaCorrente;
+import model.SeguroDeVida;
+
 public class TesteTributavel {
     public static void main(String[] args) {
         ContaCorrente contaCorrente = new ContaCorrente(2222, 2222);

@@ -1,7 +1,9 @@
+package model;
+
 //Implementar Calculador de Imposto nas classe
-//Conta Corrente
+//model.Conta Corrente
 //Seguro de vida
-//AcaoBolsaValores
+//model.AcaoBolsaValores
 public class CalculadorImposto {
     private double totalImposto;
 
