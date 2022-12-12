@@ -1,4 +1,4 @@
-package br.com.bytebank.banco.test;
+package main;
 
 import common.Exception.SaldoInsuficienteException;
 import model.CalculadorImposto;

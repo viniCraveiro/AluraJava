@@ -1,4 +1,4 @@
-package br.com.bytebank.banco.test;
+package main;
 
 public class TesteString {
     public static void main(String[] args) {

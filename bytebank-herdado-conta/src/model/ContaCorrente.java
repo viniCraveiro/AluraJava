@@ -29,4 +29,9 @@ public class ContaCorrente extends Conta implements Tributacao {
         super.saldo += valor;
         System.out.println("Seu saldo é de: " + this.saldo);
     }
+
+    @Override
+    public String toString() {
+        return "Conta Corrente" + super.toString();
+    }
 }
